@@ -26,6 +26,7 @@ def get_japanese_emoticon(file_path, emoticon)
    final_hash[key][:english] == emoticon
    
   end
+  binding.pry
   if japanese_key
   return final_hash[japanese_key][:japanese]
 else
