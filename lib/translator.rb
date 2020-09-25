@@ -21,7 +21,7 @@ def get_japanese_emoticon(file_path, emoticon)
   
   final_hash = load_library(file_path)
   final_hash.keys.map do |value, key|
-    if [key] == [:english]
+    if [key] == emoticon
       puts [:japanese]
     end
       
@@ -31,7 +31,7 @@ def get_japanese_emoticon(file_path, emoticon)
     
    
   end
-  return [:japanese][value]
+  #return [:japanese][value]
 end
 
 def get_english_meaning(file_path, emoticon)
