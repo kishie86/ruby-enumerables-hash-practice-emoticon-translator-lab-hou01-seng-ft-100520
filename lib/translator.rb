@@ -20,7 +20,7 @@ def get_japanese_emoticon(file_path, emoticon)
   # code goes here
   
   final_hash = load_library(file_path)
-  japenese_key = final_hash.keys.find do |key|
+  japanese_key = final_hash.keys.find do |key|
     
     
    final_hash[key][:english] == emoticon
