@@ -21,13 +21,11 @@ def get_japanese_emoticon(file_path, emoticon)
   
   final_hash = load_library(file_path)
   final_hash.map do |value, key|
-    final_hash[value][:japanese] == emoticon
+    final_hash[value][:japanese] == japanese_emoticon
+    final_hash[:english] == english_emoticon
     binding.pry
     
   end
-  
- 
-    
   
 end
 
