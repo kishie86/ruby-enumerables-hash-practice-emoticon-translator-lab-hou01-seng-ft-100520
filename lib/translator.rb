@@ -20,7 +20,7 @@ def get_japanese_emoticon(file_path, emoticon)
   # code goes here
   
   final_hash = load_library(file_path)
-  final_hash.values.map do |value, key|
+  final_hash.keys.map do |value, key|
     
     new_hash[key] = {}
     new_hash[key][:english] = value[0]
