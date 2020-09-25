@@ -27,7 +27,7 @@ def get_japanese_emoticon(file_path, emoticon)
    
   end
   if japanese_key
-  return final_hash[japenese_key][:japanese]
+  return final_hash[japanese_key][:japanese]
 else
 end
 end
