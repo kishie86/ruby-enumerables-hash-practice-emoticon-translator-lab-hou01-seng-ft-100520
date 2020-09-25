@@ -29,7 +29,7 @@ def get_japanese_emoticon(file_path, emoticon)
     new_hash[key][:english] = value[0]
     new_hash[value][:japanese] = value[1]
     
-  end  
+   
   end
   
 end
