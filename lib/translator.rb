@@ -23,7 +23,7 @@ def get_japanese_emoticon(file_path, emoticon)
   final_hash.keys.map do |value, key|
     if [key] = [:english]
       puts [:japanese]
-    
+    end
       
     binding.pry
     new_hash[key][:english] = value[0]
